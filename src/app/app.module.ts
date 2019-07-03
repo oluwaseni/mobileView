@@ -17,6 +17,8 @@ import { DealsComponent } from './Module/home/deals/deals.component';
 import { HomeSliderComponent } from './Module/home/home-slider/home-slider.component';
 import { HomeComponent } from './Module/home/home.component';
 import { NavbarComponent } from './Shared/navbar/navbar.component';
+import { ContactComponent } from './Module/home/contact/contact.component';
+import { ContactUsComponent } from './Module/home/contact-us/contact-us.component';
 // import { FooterModule } from './Shared/footer/footer/footer.module';
 
 @NgModule({
@@ -34,7 +36,9 @@ import { NavbarComponent } from './Shared/navbar/navbar.component';
     DealsComponent,
     HomeSliderComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    ContactComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
