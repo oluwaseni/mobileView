@@ -19,7 +19,6 @@ import { HomeComponent } from './Module/home/home.component';
 import { NavbarComponent } from './Shared/navbar/navbar.component';
 import { ContactComponent } from './Module/home/contact/contact.component';
 import { ContactUsComponent } from './Module/home/contact-us/contact-us.component';
-<<<<<<< HEAD
 import { AccountComponent } from './Module/home/account/account.component';
 import { PageNotFoundComponent } from './Module/home/page-not-found/page-not-found.component';
 import { AboutUsComponent } from './Module/about-us/about-us.component';
@@ -79,8 +78,6 @@ import { MachineryComponent } from './Module/home/categories/machinery/machinery
 import { MeasurementComponent } from './Module/home/categories/measurement/measurement.component';
 import { MetallurgyComponent } from './Module/home/categories/metallurgy/metallurgy.component';
 import { PackagingComponent } from './Module/home/categories/packaging/packaging.component';
-=======
->>>>>>> 07aac523f77cfd4b4bd351fc2a4bf47fddfd2362
 // import { FooterModule } from './Shared/footer/footer/footer.module';
 
 @NgModule({
@@ -100,7 +97,6 @@ import { PackagingComponent } from './Module/home/categories/packaging/packaging
     NavbarComponent,
     HomeComponent,
     ContactComponent,
-<<<<<<< HEAD
     ContactUsComponent,
     AccountComponent,
     PageNotFoundComponent,
@@ -160,10 +156,8 @@ import { PackagingComponent } from './Module/home/categories/packaging/packaging
     MachineryComponent,
     MeasurementComponent,
     MetallurgyComponent,
-    PackagingComponent
-=======
+    PackagingComponent,
     ContactUsComponent
->>>>>>> 07aac523f77cfd4b4bd351fc2a4bf47fddfd2362
   ],
   imports: [
     BrowserModule,

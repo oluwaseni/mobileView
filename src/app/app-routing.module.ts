@@ -3,7 +3,6 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './Module/home/home.component';
 import { ContactComponent } from './Module/home/contact/contact.component';
 import { ContactUsComponent } from './Module/home/contact-us/contact-us.component';
-<<<<<<< HEAD
 import { AccountComponent } from './Module/home/account/account.component';
 import { PageNotFoundComponent } from './Module/home/page-not-found/page-not-found.component';
 import { AgricultureComponent } from './Module/home/categories/agriculture/agriculture.component';
@@ -46,14 +45,12 @@ const routes: Routes = [
   {path: 'agriculture', component: AgricultureComponent},
   {path: 'categories', component: CategoriesComponent, },
   {path:'**', component: PageNotFoundComponent}
-=======
 
-const routes: Routes = [
-  { path: '', component: HomeComponent, },
-  { path: 'home', component: HomeComponent, },
-  { path: 'contact', component: ContactComponent, },
-  { path: 'contact-us', component: ContactUsComponent, }
->>>>>>> 07aac523f77cfd4b4bd351fc2a4bf47fddfd2362
+// const routes: Routes = [
+//   { path: '', component: HomeComponent, },
+//   { path: 'home', component: HomeComponent, },
+//   { path: 'contact', component: ContactComponent, },
+//   { path: 'contact-us', component: ContactUsComponent, }
   
 ];
 

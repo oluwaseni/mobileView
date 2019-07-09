@@ -17,17 +17,14 @@ export class FooterComponent implements OnInit {
   //parents : any;
   categories : any
   response : any;
-<<<<<<< HEAD
   cat : any;
- 
-=======
->>>>>>> 07aac523f77cfd4b4bd351fc2a4bf47fddfd2362
+  
   ngOnInit() {
     
     let obs = this.http.get('https://api.alabamarket.com/api/parents');
     obs.subscribe((response) => {
       this.response = response;
-<<<<<<< HEAD
+
       // this.cat = wordsh(parent.name)
 
      // console.log(this.response)
@@ -37,22 +34,21 @@ export class FooterComponent implements OnInit {
     });
 
 
-    function getWord(word : string){
+    // function getWord(word : string){
 
 
-    }
-=======
-      console.log(this.response)
-      this.categories =this.response.categories
-      console.log(this.categories)
-    });
->>>>>>> 07aac523f77cfd4b4bd351fc2a4bf47fddfd2362
+    // }
+
+    //   console.log(this.response)
+    //   this.categories =this.response.categories
+    //   console.log(this.categories)
+    // });
     // this.response = parent
 
     
    
   }
-<<<<<<< HEAD
+
   
 
   wordsh(stre : string){
@@ -63,9 +59,7 @@ export class FooterComponent implements OnInit {
 
       return another//.toLocaleLowerCase();
     }
-=======
 
->>>>>>> 07aac523f77cfd4b4bd351fc2a4bf47fddfd2362
 
 openNav() {
     document.getElementById("mySidenav").style.width = "250px";
