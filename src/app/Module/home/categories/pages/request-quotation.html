@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html language='en'>
+<head>
+    <title>Request for Quotation</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel='stylesheet' href='css/app.css'>
+    <link rel='stylesheet' href='css/ratchet.min.css'>
+    <script src='index.js'></script>
+</head>
+    <body>
+         <div class="d-flex justify-content-center" id='header'>
+    </div>
+        <div class="content container">
+            <h4>REQUEST QUOTATION</h4>
+            <hr>
+            <strong>
+                <h5>Get Quotes Easily</h5>
+            </strong>
+            <p id='intro-jumbotron' class='jumbotron'>
+                Alaba market is an intelligent B2B management solution that helps you bring all of alaba market products
+                into one place quickly, easily and securely.
+            </p>
+            <div class='shadow-lg p-3 mb-5 bg-white rounded' id="form">
+                 <form method='POST' action="">
+                    <div class="form-group">
+                        <label for='firstName'>First Name<i class="fas fa-asterisk"></i></label>
+                        <input type="text" name="firstName" id='firstName' class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName" class='form-group'>Last Name<i class="fas fa-asterisk"></i></label>
+                        <input type="text" name="lastName" id='lastName' class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class='form-group'>Email<i class="fas fa-asterisk"></i></label>
+                        <input type="text" name="email" id='email' class="form-control">
+                         
+                    </div>
+                    <div class="form-group">
+                        <label for="mobile" class='form-group'>Mobile<i class="fas fa-asterisk"></i></label>
+                        <input type="text" name="mobile" id='mobile' class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="productName" class='form-group'>Product/Service Name<i class="fas fa-asterisk"></i></label>
+                        <input type="text" name="productName" id="productName" class="form-control">                     
+                    </div>
+                    <div class="form-group">
+                         <label for="productDetails" class='form-group'>Product/Service Details<i class="fas fa-asterisk"></i></label>
+                         <textarea id="productDetails" cols="30" rows="10" type="text" name="productDetails"
+                            class="form-control">
+                    </textarea>
+                    </div>
+                    <div>
+                         <button class='btn btn-outline-dark'>REQUEST QUOTATION</button>
+                    </div>
+                 </form>
+            </div>
+            <footer class="d-flex justify-content-center" id='footer'>
+                <strong>&copy Alabamarket 2019.</strong>
+            </footer>
+        </div>
+       
+        <script src='js/ratchet.min.js'> </script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>       
+    </body>
+</html>

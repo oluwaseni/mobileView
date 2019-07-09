@@ -1,0 +1,39 @@
+.bar{
+    background: #FEC919 !important;
+}
+.content{
+    margin-top: 100px;
+}
+
+.bar-tab{
+    background: #FEC919;
+}
+
+.bar-tab .tab-item.active, .bar-tab .tab-item:active{
+    color: #000;
+}
+
+.bar-tab .tab-item{
+    color: #000;
+}
+
+.underline-small::after{
+    content:'';
+    height:2px;
+    width:20%;
+    background:#FEC919;
+    position:absolute;
+    left:calc(50% - 10%);
+    bottom:-5px;
+  }
+
+.faqButton{
+    background: #FEC919;
+    margin-left: 2px;
+    padding: 4px 2px 0 2px;
+}
+
+.faqButton >p{
+    font-size: 10px;
+    color: #000;
+}

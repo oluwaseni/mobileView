@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sign up- ALABAMARKET</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="../css/ratchet.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../images/ALABAMARKET NEW LOGO.png" rel="icon">
+    <!-- <link href="./css/css/all.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="../js/ratchet.js"></script>
+    <script src="../index.js"></script>
+  </head>
+  <body>
+
+  
+    <!-- Make sure all your bars are the first things in your <body> -->
+        <header class="bar bar-nav myBar">
+            <!-- <button class="btn btn-link btn-nav pull-left">
+                <span class="icon icon-bars"></span>
+            </button>
+             -->
+            <a href="#myModalexample">
+            <button class="btn btn-link btn-nav pull-right">
+                <span class="icon icon-search"></span>
+            </button>
+        </a>
+            <h1 class="title">
+                <img src="../images/ALABAMARKET NEW LOGO.png">
+            </h1>
+          </header>
+
+<div class="content" id="main">
+ <h4 class="text-center underline-small">Sign up</h4>
+ <p class="text-center">Sign up To Connect With Manufacturers, <br> Wholesalers and Distributors Online. </p>
+ <br>
+<div class="container">
+<form action="">
+<div class="form-group row">   
+    <div class="col-sm-6">
+   <input type="text" class="form-control" id="firstName" placeholder="First name">
+ </div>
+  <div class="col-sm-6">
+ <input type="text" class="form-control" id="secondName" placeholder="Last name">
+  </div>
+  <div class="col-sm-6">
+  <input type="text" class="form-control" id="phone" placeholder="Phone">
+   </div>
+    <div class="col-sm-6">
+    <input type="email" class="form-control" id="email" placeholder="Email">
+    </div>
+ <div class="col-sm-6">
+  <input type="password" class="form-control" id="password" placeholder="Password">
+   </div>
+  <div class="col-sm-6">
+    <input type="password" class="form-control" id="confirmPassword" placeholder=" Confirm Password">
+  </div>
+  <div class="col-sm-6">
+      <input type="text" class="form-control" id="homeAdd" placeholder="Address">
+    </div>
+    <div class="col-sm-6">
+        <input type="text" class="form-control" id="state" placeholder="State">
+      </div>
+      <div class="col-sm-6">
+          <input type="text" class="form-control" id="city" placeholder="City">
+        </div>
+        <button class="btn btn-positive btn-block btn-primary">Sign up</button>
+ </div>
+                  </form>
+              </div>
+            </div>
+
+
+    <!-- Siderbar -->
+    <div id="mySidenav" class="sidenav">
+           
+        <a href="#">Machines</a>
+        <a href="#">Heavy Machines</a>
+        <a href="#">Stock Up</a>
+        <a href="#">Contact</a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      </div>
+      
+
+    
+    
+    <!-- lower footer -->
+
+
+    <nav class="bar bar-tab myBar">
+        <a class="tab-item active" href="../index.html">
+          <span class="icon icon-home"></span>
+          <span class="tab-label">Home</span>
+        </a>
+        <a class="tab-item" href="#">
+          <span class="icon icon-person"></span>
+          <span class="tab-label">Account</span>
+        </a>
+        <a class="tab-item" href="./contact-us.html">
+          <!-- <span class="icon "></span> -->
+          <span class="icon far fa-question-circle"></span>
+          <span class="tab-label">Help</span>
+        </a>
+        <!-- <a class="tab-item" href="#" onclic>
+          <span class="icon icon-more-vertical"></span>
+          <span class="tab-label ">Help</span>
+        </a> -->
+        <a id="open" class="tab-item" href="#"  onclick="openNav()">
+          <span class="icon icon-bars"></span>
+          <span class="tab-label">Menu</span>
+        </a>
+      </nav>
+  </body>
+</html>
