@@ -1,0 +1,23 @@
+
+.myBar{
+    /* background-color: #FEC919; */
+    color: rgba(4, 4, 90, 0.884) !important;
+    /* height: 100px; */
+}
+.bar{
+  background: #FEC919 !important;
+}
+.myBar a{
+    color: #150550 !important;
+}
+.myBar span{
+    color: #150550 !important;
+} 
+
+img{
+    position: absolute;
+    height: 30px;
+    width: 90px;
+    left: 36%;
+    top: 10px;
+}
