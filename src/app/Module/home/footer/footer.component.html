@@ -7,6 +7,7 @@
   
   
   <nav class="bar bar-tab">
+<<<<<<< HEAD
       <a class="tab-item active" routerLink="../home">
         <span class="icon icon-home"></span>
         <span class="tab-label">Home</span>
@@ -16,11 +17,26 @@
         <span class="tab-label">Account</span>
       </a>
       <a class="tab-item" routerLink="../contact-us">
+=======
+      <a class="tab-item active" href="#">
+        <span class="icon icon-home"></span>
+        <span class="tab-label">Home</span>
+      </a>
+      <a class="tab-item" href="#">
+        <span class="icon icon-person"></span>
+        <span class="tab-label">Account</span>
+      </a>
+      <a class="tab-item" href="contact-us">
+>>>>>>> 07aac523f77cfd4b4bd351fc2a4bf47fddfd2362
         <!-- <span class="icon "></span> -->
         <span class="icon glyphicon glyphicon-question-sign"></span>
         <span class="tab-label">Help</span>
       </a>
+<<<<<<< HEAD
       <a id="openMenu" class="tab-item"  (click)="toggleNav()">
+=======
+      <a id="openMenu" class="tab-item" href="#"  (click)="toggleNav()">
+>>>>>>> 07aac523f77cfd4b4bd351fc2a4bf47fddfd2362
         <span class="icon icon-bars"></span>
         <span class="tab-label">Menu</span>
       </a>
@@ -34,6 +50,7 @@
 
     <div id="mySidenav" class="sidenav">
       
+<<<<<<< HEAD
     <b><a routerLink="../category"> CATEGORIES</a></b><hr>
     <div *ngFor="let parent of categories">
       <a routerLink="../{{wordsh(parent.name)}}">{{parent.name}}</a>
@@ -41,3 +58,10 @@
     
 
     <router-outlet></router-outlet>
+=======
+    <b>CATEGORIES</b><hr>
+    <div *ngFor="let parent of categories">
+      <a href="#">{{parent.name}}</a>
+    </div>
+    
+>>>>>>> 07aac523f77cfd4b4bd351fc2a4bf47fddfd2362
